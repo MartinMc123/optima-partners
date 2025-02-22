@@ -2,23 +2,30 @@
 ## Run Program
 The program can be run by using cmd (or another terminal) by navigating to the folder in which the main.py file is stored and typing python main.py. If requested by the assignment, the program can be compiled and run as a batch file or similar to avoid any cmd navigation.
 
-# Description of the solution you have provided
+# Description of the solution provided
 The solution provided consists of 2 python files: main.py and a readWriteFile.py. This would allow for future programs that require similar readWriteFile functionality to import the readWriteFile.py file. Within the main.py file, functions have been provided to split the work out in clear and appropriate chunks as per the work required. Pandas library has been used for the data manipulation and storage throughout the program as it is a powerful and open-source Python library for data manipulation and analysis. Pandas consist of data structures and functions to perform efficient operations on data. It is a good fit for the assignment provided, where there may be a dataset that does not fit in memory, PySpark can be utilised for this.
 
 # Key Components
 Files
+    
     Modules
+        
         Imports
 
 main.py
+   
     racesDateTime
     racesDataManipulation
     main
+        
         import pandas as pd
         import readWriteFile as readWriteFile
+
 readWriteFile.py
+    
     readFile(file):
     writeFile
+        
         import csv
         import json, os
         import pandas as pd
