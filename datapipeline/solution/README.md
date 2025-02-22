@@ -8,7 +8,7 @@ The solution provided consists of 2 python files: main.py and a readWriteFile.py
 # Key Components
 Files
     
-    Modules
+    Functions
         
         Imports
 
