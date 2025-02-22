@@ -32,12 +32,18 @@ readWriteFile.py
 The Core requirements of the assignment have been met as required for the Core Data Engineering application. Cloud Provider considerations have also been noted below as to what changes would be required before deploying to the Cloud, and advice on best practice for ongoing use of the program. 
 
 Developed a data pipeline that produces JSON files which have the same structure as provided.
+
 Each element in the JSON list is for one race from the races.csv file.
+
 One file per year produced in the results folder.
-JSON files have the correct naming convention and are placed in the results folder
-Where the timewas not available in races.csv, nulls have been replaced with 00:00:00
-Winning driver was determined by position 1 in results.csv converted to integer to remove decimal places
-JSON Values remain as their provided variable type
+
+JSON files have the correct naming convention and are placed in the results folder.
+
+Where the timewas not available in races.csv, nulls have been replaced with 00:00:00.
+
+Winning driver was determined by position 1 in results.csv converted to integer to remove decimal places.
+
+JSON Values remain as their provided variable type.
 
 # Any supporting documentation that you have provided
 Within the results folder, the results json files have been written from years 2018-2024.
