@@ -9,9 +9,9 @@ The solution provided consists of 2 python files: main.py and a readWriteFile.py
 main.py
    
     Functions
-    racesDateTime
-    racesDataManipulation
-    main
+    racesDateTime(df)
+    racesDataManipulation(races_df)
+    main()
         
         Imports
         import pandas as pd
@@ -20,8 +20,8 @@ main.py
 readWriteFile.py
     
     Functions
-    readFile(file):
-    writeFile
+    readFile(file)
+    writeFile(df)
         
         Imports
         import csv
