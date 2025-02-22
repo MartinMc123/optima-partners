@@ -9,21 +9,21 @@ The solution provided consists of 2 python files: main.py and a readWriteFile.py
 main.py
    
     Functions
-    racesDateTime(df)
-    racesDataManipulation(races_df)
-    main()
+        racesDateTime(df)
+        racesDataManipulation(races_df)
+        main()
         
-        Imports
+    Imports
         import pandas as pd
         import readWriteFile as readWriteFile
 
 readWriteFile.py
     
     Functions
-    readFile(file)
-    writeFile(df)
+        readFile(file)
+        writeFile(df)
         
-        Imports
+    Imports
         import csv
         import json, os
         import pandas as pd
