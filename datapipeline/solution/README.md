@@ -1,4 +1,5 @@
 # Solution README
+## Run Program
 The program can be run by using cmd (or another terminal) by navigating to the folder in which the main.py file is stored and typing python main.py. If requested by the assignment, the program can be compiled and run as a batch file or similar to avoid any cmd navigation.
 
 # Description of the solution you have provided
