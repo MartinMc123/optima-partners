@@ -6,8 +6,6 @@ The program can be run by using cmd (or another terminal) by navigating to the f
 The solution provided consists of 2 python files: main.py and a readWriteFile.py. This would allow for future programs that require similar readWriteFile functionality to import the readWriteFile.py file. Within the main.py file, functions have been provided to split the work out in clear and appropriate chunks as per the work required. Pandas library has been used for the data manipulation and storage throughout the program as it is a powerful and open-source Python library for data manipulation and analysis. Pandas consist of data structures and functions to perform efficient operations on data. It is a good fit for the assignment provided, where there may be a dataset that does not fit in memory, PySpark can be utilised for this.
 
 # Key Components
-Files
-
 main.py
    
     Functions
