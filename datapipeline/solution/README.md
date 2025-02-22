@@ -7,23 +7,25 @@ The solution provided consists of 2 python files: main.py and a readWriteFile.py
 
 # Key Components
 Files
-    Functions
-        Imports
 
 main.py
    
+    Functions
     racesDateTime
     racesDataManipulation
     main
         
+        Imports
         import pandas as pd
         import readWriteFile as readWriteFile
 
 readWriteFile.py
     
+    Functions
     readFile(file):
     writeFile
         
+        Imports
         import csv
         import json, os
         import pandas as pd
